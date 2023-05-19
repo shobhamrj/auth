@@ -26,4 +26,4 @@ To get started with the API, please follow the instructions below:
 
 5. Again, make sure to replace "johnson@gmail.com" with your email, "John" with your first name, "Miller" with your last name, and "test" with your desired password.
 
-Technologies used: Mongodb, Express, node, bcrypt.
+Technologies used: Mongodb, Express, NodeJS, bcrypt.
