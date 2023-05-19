@@ -2,7 +2,7 @@
 
 To get started with the API, please follow the instructions below:
 
-1. Since the server and the mongodb cluster is runnig, just use Postman or Thunder Client to test these API endpoints.
+1. Since the server is running in render.com and a mongodb cluster is also running, just use Postman or Thunder Client to test these API endpoints.
 
 2. Sign in to your account using the /api/signin endpoint. Send a POST request to https://auth-7k2y.onrender.com/api/signin with the following JSON body:
 ```
