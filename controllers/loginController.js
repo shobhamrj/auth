@@ -56,12 +56,12 @@ const signIn = async(req, res) => {
                     }
                 })
             } else {
-                res.status(401).send('Invalid email!');
+                return res.status(401).send('Invalid email!');
             }
         })
         .catch((error) => {
             console.error('Error signing in:', error);
-            res.status(500).send('An error occurred while signing in');
+            return res.status(500).send('An error occurred while signing in');
         });
 };
 
